@@ -3,8 +3,8 @@ import cvzone
 import cv2
 import math
 
-cap = cv2.VideoCapture('fire4.mp4')
-model = YOLO('best (2).pt')
+cap = cv2.VideoCapture('fire2.mp4')
+model = YOLO('best.pt')
 classnames = ['fire']
 
 while True:
